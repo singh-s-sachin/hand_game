@@ -103,7 +103,7 @@ public class GamePlay
 	@Test
 	public void testWinnerDeclarationMethodWithMasterWin() throws Exception
 	{
-		String winner = (String) getWinnerMethod.invoke(null, "OC3", "CC");
+		String winner = (String) getWinnerMethod.invoke(null, "OC1", "CC");
 		assertEquals(GameUtil.MASTER, winner);
 	}
 
