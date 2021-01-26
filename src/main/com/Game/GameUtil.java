@@ -98,7 +98,7 @@ public class GameUtil
 
 	static String getWinner(String masterPrediction, String slavePrediction)
 	{
-		String predictedHand = String.valueOf(masterPrediction.charAt(1));
+		String predictedHand = "O";
 		int predictedCount = Integer.parseInt(String.valueOf(masterPrediction.charAt(2)));
 		int actualCount = 0;
 		String regex = masterPrediction + slavePrediction;
